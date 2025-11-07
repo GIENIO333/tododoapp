@@ -2,15 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="@dimen/form_field_spacing">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/name_label"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:padding="8dp"
+        android:padding="@dimen/form_section_padding"
         android:background="#F0F0F0" />
 
     <EditText
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/name_hint"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="@dimen/form_field_spacing"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,15 +26,30 @@
         android:text="@string/details_label"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:padding="8dp"
+        android:padding="@dimen/form_section_padding"
         android:background="#F0F0F0" />
 
     <Button
         android:id="@+id/task_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Data"/>
+        android:layout_marginBottom="@dimen/form_field_spacing"
+        android:text="@string/date_button_label"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_label"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="@dimen/form_section_padding"
+        android:background="#F0F0F0" />
+
+    <Spinner
+        android:id="@+id/task_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/form_field_spacing"/>
 
     <CheckBox
         android:id="@+id/task_done"

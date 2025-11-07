@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/new_task"
+        android:icon="@drawable/ic_add"
+        android:title="@string/new_task"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menu_filter"
+        android:title="@string/filter_category">
+        <menu>
+            <item
+                android:id="@+id/category_all"
+                android:title="@string/category_all" />
+            <item
+                android:id="@+id/category_home"
+                android:title="@string/category_home" />
+            <item
+                android:id="@+id/category_studies"
+                android:title="@string/category_studies" />
+            <item
+                android:id="@+id/category_other"
+                android:title="@string/category_other" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/show_subtitle"
+        android:title="@string/show_subtitle"
+        app:showAsAction="never" />
+
+</menu>
