@@ -6,4 +6,17 @@
     <string name="name_label">Nazwa</string>
     <string name="details_label">Szczegóły</string>
     <string name="done_label">Wykonane</string>
+    <string name="category_label">Kategoria</string>
+    <string name="task_category_icon">Ikona kategorii zadania</string>
+    <string name="date_button_label">Wybierz datę</string>
+    <string name="new_task">Nowe zadanie</string>
+    <string name="show_subtitle">Pokaż podtytuł</string>
+    <string name="hide_subtitle">Ukryj podtytuł</string>
+    <string name="subtitle_format">Liczba zadań: %1$d</string>
+    <string name="filter_category">Filtruj według kategorii</string>
+    <string name="category_all">Wszystkie</string>
+    <string name="category_home">Dom</string>
+    <string name="category_studies">Nauka</string>
+    <string name="category_other">Inne</string>
+    <string name="date_picker_title">Wybierz datę zadania</string>
 </resources>
